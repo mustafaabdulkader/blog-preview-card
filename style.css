@@ -47,7 +47,7 @@ body {
   font-family: "Figtree-XL";
 }
 .title:active {
-    color:hsl(47, 88%, 63%);
+  color: hsl(47, 88%, 63%);
 }
 .description {
   font-size: 12px;
@@ -69,4 +69,29 @@ body {
 .author-name {
   font-size: 11px;
   font-family: "Figtree-XL";
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 330px;
+    height: 450px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .tag {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .author-name {
+    font-size: 14px;
+  }
+  .avatar-img {
+    width: 30px;
+  }
 }
