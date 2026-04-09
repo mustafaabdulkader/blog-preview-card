@@ -73,11 +73,12 @@ body {
 
 @media screen and (max-width: 500px) {
   .card {
-    width: 330px;
+    width: 300px;
     height: 450px;
   }
   .title {
     font-size: 22px;
+    margin-top: 20px;
   }
   .tag {
     font-size: 14px;
@@ -87,11 +88,16 @@ body {
   }
   .description {
     font-size: 16px;
+    margin-bottom: 30px;
   }
   .author-name {
     font-size: 14px;
   }
   .avatar-img {
     width: 30px;
+  }
+  .tag {
+    margin-top: 10px;
+    display: inline-block;
   }
 }
